@@ -1,0 +1,11 @@
+appId: com.yourcompany.yourappname
+productName: Your App Name
+directories:
+  output: dist
+  buildResources: build
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
